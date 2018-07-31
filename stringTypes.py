@@ -1,0 +1,15 @@
+import platform
+print('Program is being run with version {}'.format(platform.python_version()))
+
+x="Seven {}".format(1)
+print(x)
+x="Seven '{1}' '{0}'".format(8,9)
+print(x)
+x="Seven '{0:>9}' '{1:<9}'".format(8,9)
+print(x)
+x="Seven '{1:>9}' '{0:<9}'".format(8,9)
+print(x)
+x="Seven '{0:>09}' '{1:<09}'".format(8,9)
+print(x)
+x="Seven '{1:>09}' '{0:<09}'".format(8,9)
+print(x)
