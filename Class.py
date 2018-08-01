@@ -13,3 +13,4 @@ def main():
     duckObject.quack()
 
 if __name__ == '__main__': main()
+print('Class Duck Demo completed')
